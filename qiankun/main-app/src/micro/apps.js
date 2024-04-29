@@ -11,4 +11,10 @@ export default [
     container: "#frame",
     activeRule: "/vue",
   },
+  {
+    name: "sub-app-react",
+    entry: "//localhost:8003",
+    container: "#frame",
+    activeRule: "/react",
+  },
 ];

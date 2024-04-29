@@ -7,6 +7,7 @@ const menus = ref([
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Vue sub app", path: "/vue" },
+  { name: "React sub app", path: "/react" },
 ]);
 </script>
 

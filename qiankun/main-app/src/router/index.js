@@ -15,9 +15,14 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
     {
-      // history模式需要通配所有路由，详见vue-router文档
       path: "/vue/:pathMatch(.*)*",
       name: "vue",
+      meta: {},
+      component: () => import("../components/SubContainer.vue"),
+    },
+    {
+      path: "/react/:pathMatch(.*)*",
+      name: "react",
       meta: {},
       component: () => import("../components/SubContainer.vue"),
     },
